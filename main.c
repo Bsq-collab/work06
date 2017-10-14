@@ -19,7 +19,7 @@ int main(){
   print_list(free_list(tester));
 
   
-  return x;
+  return 0;
   
   
 }
