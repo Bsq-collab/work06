@@ -20,9 +20,12 @@ int main(){
   printf("\n\n\n=====TESTING FREE_LIST======\n\n\n");
   
   printf("after freeing~~~~:\n");
+  printf("printing free_list(tester):\n");
   print_list(free_list(tester));
+  printf("\n\n");
 
-  
+  printf("tester:\n");
+  print_list(tester);
   return 0;
   
   
