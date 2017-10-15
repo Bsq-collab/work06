@@ -18,7 +18,6 @@ struct node * insert_front(struct node * n, int num){
 }
 
 struct node * free_list(struct node * lp){
-  // struct node * n=lp;
   while(lp){
     struct node * next = lp-> next;
     free(lp);
